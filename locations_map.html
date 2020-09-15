@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_f2a49b2b681b424a9ab7764ec4a642f5 {
+                #map_b9ee46511e6e4ef8bff8b7fbae0722cb {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -36,17 +36,17 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_f2a49b2b681b424a9ab7764ec4a642f5" ></div>
+            <div class="folium-map" id="map_b9ee46511e6e4ef8bff8b7fbae0722cb" ></div>
         
 </body>
 <script>    
     
-            var map_f2a49b2b681b424a9ab7764ec4a642f5 = L.map(
-                "map_f2a49b2b681b424a9ab7764ec4a642f5",
+            var map_b9ee46511e6e4ef8bff8b7fbae0722cb = L.map(
+                "map_b9ee46511e6e4ef8bff8b7fbae0722cb",
                 {
-                    center: [47.9959, 7.8522],
+                    center: [0, 0],
                     crs: L.CRS.EPSG3857,
-                    zoom: 8,
+                    zoom: 1,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -56,273 +56,235 @@
 
         
     
-            var tile_layer_7786d45b691a43b58d11a69b36e0f5e0 = L.tileLayer(
+            var tile_layer_2fda66a244c64c9fa9311f7e4c96ceec = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-            var marker_279c8a505dbb428e8188663003f92b43 = L.marker(
-                [47.9959, 7.8522],
+            var marker_7d166387bc2745d29197144965756ba0 = L.marker(
+                [47.9813, 7.8427],
                 {}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-            var icon_fc71c975965f4ccaaca46b1507c59398 = L.AwesomeMarkers.icon(
+            var icon_e42a66a8f6de408bba25c92356c185f1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_279c8a505dbb428e8188663003f92b43.setIcon(icon_fc71c975965f4ccaaca46b1507c59398);
+            marker_7d166387bc2745d29197144965756ba0.setIcon(icon_e42a66a8f6de408bba25c92356c185f1);
         
     
-            marker_279c8a505dbb428e8188663003f92b43.bindTooltip(
-                `<div>
-                     Mein Standort
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var regular_polygon_marker_63a3c7a012bf45bf807ced1fde06e91b = new L.RegularPolygonMarker(
-                [47.981367, 7.842087],
+            var regular_polygon_marker_28fbd0e802fe40a0af2db018643c49c4 = new L.RegularPolygonMarker(
+                [47.981367, 7.842787],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-        var popup_ff193242a63642559fadf20fd5d93845 = L.popup({"maxWidth": "100%"});
+        var popup_bdbc970a99894a7f8f5def31b2ad595c = L.popup({"maxWidth": "100%"});
 
         
-            var html_5e2256d5dfd3485d8da20336e16dc21a = $(`<div id="html_5e2256d5dfd3485d8da20336e16dc21a" style="width: 100.0%; height: 100.0%;">Name: Regenbecken Typ: Regenbecken Adresse: Matthias-Grünewald-Straße 15-3, 79100 Freiburg im Breisgau, Germany</div>`)[0];
-            popup_ff193242a63642559fadf20fd5d93845.setContent(html_5e2256d5dfd3485d8da20336e16dc21a);
+            var html_67701547c03a488fafda42e6126e9040 = $(`<div id="html_67701547c03a488fafda42e6126e9040" style="width: 100.0%; height: 100.0%;">Name:oneLocation: <a href="{file_dir}">{open}</a></div>`)[0];
+            popup_bdbc970a99894a7f8f5def31b2ad595c.setContent(html_67701547c03a488fafda42e6126e9040);
         
 
-        regular_polygon_marker_63a3c7a012bf45bf807ced1fde06e91b.bindPopup(popup_ff193242a63642559fadf20fd5d93845)
+        regular_polygon_marker_28fbd0e802fe40a0af2db018643c49c4.bindPopup(popup_bdbc970a99894a7f8f5def31b2ad595c)
         ;
 
         
     
     
-            regular_polygon_marker_63a3c7a012bf45bf807ced1fde06e91b.bindTooltip(
+            regular_polygon_marker_28fbd0e802fe40a0af2db018643c49c4.bindTooltip(
                 `<div>
-                     Regenbecken
+                     one
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var regular_polygon_marker_556cde8462f541b785bf129a06bd75e5 = new L.RegularPolygonMarker(
-                [47.784599, 7.543373],
+            var regular_polygon_marker_c954a3f2d11b495aa0463de91f3a37b3 = new L.RegularPolygonMarker(
+                [47.981767, 7.842097],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-        var popup_c36fc498b8704ceb830d5793e1a60204 = L.popup({"maxWidth": "100%"});
+        var popup_73752a3f423047e3a873aa720e6d9fbc = L.popup({"maxWidth": "100%"});
 
         
-            var html_df1e462d9ada4334bc63c02f3290dafe = $(`<div id="html_df1e462d9ada4334bc63c02f3290dafe" style="width: 100.0%; height: 100.0%;">Name: RÜB_59 Typ: Regenbecken Adresse: Weinbergblick, 79395 Neuenburg am Rhein</div>`)[0];
-            popup_c36fc498b8704ceb830d5793e1a60204.setContent(html_df1e462d9ada4334bc63c02f3290dafe);
+            var html_a2d1e4b1a4c44909a1cd3c9cd48c58be = $(`<div id="html_a2d1e4b1a4c44909a1cd3c9cd48c58be" style="width: 100.0%; height: 100.0%;">Name:twoLocation: <a href="{file_dir}">{open}</a></div>`)[0];
+            popup_73752a3f423047e3a873aa720e6d9fbc.setContent(html_a2d1e4b1a4c44909a1cd3c9cd48c58be);
         
 
-        regular_polygon_marker_556cde8462f541b785bf129a06bd75e5.bindPopup(popup_c36fc498b8704ceb830d5793e1a60204)
+        regular_polygon_marker_c954a3f2d11b495aa0463de91f3a37b3.bindPopup(popup_73752a3f423047e3a873aa720e6d9fbc)
         ;
 
         
     
     
-            regular_polygon_marker_556cde8462f541b785bf129a06bd75e5.bindTooltip(
+            regular_polygon_marker_c954a3f2d11b495aa0463de91f3a37b3.bindTooltip(
                 `<div>
-                     RÜB_59
+                     two
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var regular_polygon_marker_966d4975421c42d4902d970ddaa28d76 = new L.RegularPolygonMarker(
-                [47.79077, 7.583286],
+            var regular_polygon_marker_0ed6c6b6549044618c074863c55f2538 = new L.RegularPolygonMarker(
+                [47.981367, 7.842787],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-        var popup_6d368f8331e547878e020feea3d17d49 = L.popup({"maxWidth": "100%"});
+        var popup_208e326e087c4ca7af55fcf5713ca1a4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7e0e2c827b214337973b541325a6ae78 = $(`<div id="html_7e0e2c827b214337973b541325a6ae78" style="width: 100.0%; height: 100.0%;">Name: Regenbecken-4 Typ: Becken Adresse: Auggen, 79424, Germany</div>`)[0];
-            popup_6d368f8331e547878e020feea3d17d49.setContent(html_7e0e2c827b214337973b541325a6ae78);
+            var html_839bde42a860487380929eadec87949b = $(`<div id="html_839bde42a860487380929eadec87949b" style="width: 100.0%; height: 100.0%;">Name:oneLocation: <a href="{file_dir}">{open}</a></div>`)[0];
+            popup_208e326e087c4ca7af55fcf5713ca1a4.setContent(html_839bde42a860487380929eadec87949b);
         
 
-        regular_polygon_marker_966d4975421c42d4902d970ddaa28d76.bindPopup(popup_6d368f8331e547878e020feea3d17d49)
+        regular_polygon_marker_0ed6c6b6549044618c074863c55f2538.bindPopup(popup_208e326e087c4ca7af55fcf5713ca1a4)
         ;
 
         
     
     
-            regular_polygon_marker_966d4975421c42d4902d970ddaa28d76.bindTooltip(
+            regular_polygon_marker_0ed6c6b6549044618c074863c55f2538.bindTooltip(
                 `<div>
-                     Regenbecken-4
+                     one
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var regular_polygon_marker_7b337913da304c05a4b894c05e94969a = new L.RegularPolygonMarker(
-                [47.784599, 7.543373],
+            var regular_polygon_marker_eb73af44de6c485d8a732316f084c300 = new L.RegularPolygonMarker(
+                [47.981767, 7.842097],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-        var popup_ed1a4509ff084eb489361aefde351cd6 = L.popup({"maxWidth": "100%"});
+        var popup_bd8bf54be20748c28acd1eb4f33b16fd = L.popup({"maxWidth": "100%"});
 
         
-            var html_c6abd03e33184a14b5c6bb84838fd597 = $(`<div id="html_c6abd03e33184a14b5c6bb84838fd597" style="width: 100.0%; height: 100.0%;">Name: Hof Typ: Regenbecken Adresse: 79395 Neuenburg am Rhein, Germany</div>`)[0];
-            popup_ed1a4509ff084eb489361aefde351cd6.setContent(html_c6abd03e33184a14b5c6bb84838fd597);
+            var html_850e929254894ae0b1a38c081aa90fb0 = $(`<div id="html_850e929254894ae0b1a38c081aa90fb0" style="width: 100.0%; height: 100.0%;">Name:twoLocation: <a href="{file_dir}">{open}</a></div>`)[0];
+            popup_bd8bf54be20748c28acd1eb4f33b16fd.setContent(html_850e929254894ae0b1a38c081aa90fb0);
         
 
-        regular_polygon_marker_7b337913da304c05a4b894c05e94969a.bindPopup(popup_ed1a4509ff084eb489361aefde351cd6)
+        regular_polygon_marker_eb73af44de6c485d8a732316f084c300.bindPopup(popup_bd8bf54be20748c28acd1eb4f33b16fd)
         ;
 
         
     
     
-            regular_polygon_marker_7b337913da304c05a4b894c05e94969a.bindTooltip(
+            regular_polygon_marker_eb73af44de6c485d8a732316f084c300.bindTooltip(
                 `<div>
-                     Hof
+                     two
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var regular_polygon_marker_d4062778b449464f9d9a5efbdbb7e789 = new L.RegularPolygonMarker(
-                [47.767964, 7.555197],
+            var regular_polygon_marker_d5b42b5614ec42f48ad74674cf659901 = new L.RegularPolygonMarker(
+                [47.981367, 7.842787],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-        var popup_382978148c784987a08233135f2af2d3 = L.popup({"maxWidth": "100%"});
+        var popup_6daee65966b543839890ca2b19627af6 = L.popup({"maxWidth": "100%"});
 
         
-            var html_21df1dcbeade46728022004f2e5295c9 = $(`<div id="html_21df1dcbeade46728022004f2e5295c9" style="width: 100.0%; height: 100.0%;">Name: Kirche Typ: Regenbecken Adresse: Kirchstrasse 20, 79395, Neuenburg, Germany</div>`)[0];
-            popup_382978148c784987a08233135f2af2d3.setContent(html_21df1dcbeade46728022004f2e5295c9);
+            var html_fd1fffc7678b490b85e0907b5b461edc = $(`<div id="html_fd1fffc7678b490b85e0907b5b461edc" style="width: 100.0%; height: 100.0%;">Name:oneLocation: <a href="file_dir">open</a></div>`)[0];
+            popup_6daee65966b543839890ca2b19627af6.setContent(html_fd1fffc7678b490b85e0907b5b461edc);
         
 
-        regular_polygon_marker_d4062778b449464f9d9a5efbdbb7e789.bindPopup(popup_382978148c784987a08233135f2af2d3)
+        regular_polygon_marker_d5b42b5614ec42f48ad74674cf659901.bindPopup(popup_6daee65966b543839890ca2b19627af6)
         ;
 
         
     
     
-            regular_polygon_marker_d4062778b449464f9d9a5efbdbb7e789.bindTooltip(
+            regular_polygon_marker_d5b42b5614ec42f48ad74674cf659901.bindTooltip(
                 `<div>
-                     Kirche
+                     one
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var regular_polygon_marker_16d1b1f24e624d76ad4e3e2a1d47435b = new L.RegularPolygonMarker(
-                [47.769831, 7.554888],
+            var regular_polygon_marker_a6c221000f254f218257b6ee036b098b = new L.RegularPolygonMarker(
+                [47.981767, 7.842097],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-        var popup_cdb9596f60614214ac797243c81538c9 = L.popup({"maxWidth": "100%"});
+        var popup_d4d37c1256e04f21945e3c7e6299b83f = L.popup({"maxWidth": "100%"});
 
         
-            var html_106120c9f91941ab9965ed84f7e9a8a3 = $(`<div id="html_106120c9f91941ab9965ed84f7e9a8a3" style="width: 100.0%; height: 100.0%;">Name: RÜB_55 Typ: Regenbecken Adresse: St. Barbara Strasse 20, 79395, Neuenburg, Germany</div>`)[0];
-            popup_cdb9596f60614214ac797243c81538c9.setContent(html_106120c9f91941ab9965ed84f7e9a8a3);
+            var html_c3aa6dea29794fb9bab154918ada0a6c = $(`<div id="html_c3aa6dea29794fb9bab154918ada0a6c" style="width: 100.0%; height: 100.0%;">Name:twoLocation: <a href="file_dir">open</a></div>`)[0];
+            popup_d4d37c1256e04f21945e3c7e6299b83f.setContent(html_c3aa6dea29794fb9bab154918ada0a6c);
         
 
-        regular_polygon_marker_16d1b1f24e624d76ad4e3e2a1d47435b.bindPopup(popup_cdb9596f60614214ac797243c81538c9)
+        regular_polygon_marker_a6c221000f254f218257b6ee036b098b.bindPopup(popup_d4d37c1256e04f21945e3c7e6299b83f)
         ;
 
         
     
     
-            regular_polygon_marker_16d1b1f24e624d76ad4e3e2a1d47435b.bindTooltip(
+            regular_polygon_marker_a6c221000f254f218257b6ee036b098b.bindTooltip(
                 `<div>
-                     RÜB_55
+                     two
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var regular_polygon_marker_b2a8b0472cce40b7a53161ccc2b94ba6 = new L.RegularPolygonMarker(
-                [47.981367, 7.842087],
+            var regular_polygon_marker_afdd747fed354079aed1f0900245872d = new L.RegularPolygonMarker(
+                [47.981367, 7.842787],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-            regular_polygon_marker_b2a8b0472cce40b7a53161ccc2b94ba6.bindTooltip(
+        var popup_713ab29c8b5845098a1c1df4c7d68c57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bd032e921dc475b9708e4af80349749 = $(`<div id="html_1bd032e921dc475b9708e4af80349749" style="width: 100.0%; height: 100.0%;">Name:one/data/test 6/</div>`)[0];
+            popup_713ab29c8b5845098a1c1df4c7d68c57.setContent(html_1bd032e921dc475b9708e4af80349749);
+        
+
+        regular_polygon_marker_afdd747fed354079aed1f0900245872d.bindPopup(popup_713ab29c8b5845098a1c1df4c7d68c57)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_afdd747fed354079aed1f0900245872d.bindTooltip(
                 `<div>
-                     Regenbecken
+                     one
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var regular_polygon_marker_61a88a7f19e8462295c287582b3374bb = new L.RegularPolygonMarker(
-                [47.784599, 7.543373],
+            var regular_polygon_marker_4c2c82f8ef9c4815ad4b26ff680be0fa = new L.RegularPolygonMarker(
+                [47.981767, 7.842097],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
+            ).addTo(map_b9ee46511e6e4ef8bff8b7fbae0722cb);
         
     
-            regular_polygon_marker_61a88a7f19e8462295c287582b3374bb.bindTooltip(
+        var popup_c8b6c23589ec4bd0a9e3ffc6548062a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53126057ded144f690aec0eade419f9a = $(`<div id="html_53126057ded144f690aec0eade419f9a" style="width: 100.0%; height: 100.0%;">Name:two/data/TEST4a/</div>`)[0];
+            popup_c8b6c23589ec4bd0a9e3ffc6548062a8.setContent(html_53126057ded144f690aec0eade419f9a);
+        
+
+        regular_polygon_marker_4c2c82f8ef9c4815ad4b26ff680be0fa.bindPopup(popup_c8b6c23589ec4bd0a9e3ffc6548062a8)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_4c2c82f8ef9c4815ad4b26ff680be0fa.bindTooltip(
                 `<div>
-                     RÜB_59
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var regular_polygon_marker_6130a789c55a45428e04821b35ff4169 = new L.RegularPolygonMarker(
-                [47.79077, 7.583286],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
-        
-    
-            regular_polygon_marker_6130a789c55a45428e04821b35ff4169.bindTooltip(
-                `<div>
-                     Regenbecken-4
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var regular_polygon_marker_91601db47c374169b8c0d85cdeb10161 = new L.RegularPolygonMarker(
-                [47.784599, 7.543373],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
-        
-    
-            regular_polygon_marker_91601db47c374169b8c0d85cdeb10161.bindTooltip(
-                `<div>
-                     Hof
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var regular_polygon_marker_6be4d9d3fea746758ca6e9e19a1f7b73 = new L.RegularPolygonMarker(
-                [47.767964, 7.555197],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
-        
-    
-            regular_polygon_marker_6be4d9d3fea746758ca6e9e19a1f7b73.bindTooltip(
-                `<div>
-                     Kirche
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var regular_polygon_marker_5f0cd1bcb8b645849a5ce8444ccb5f7b = new L.RegularPolygonMarker(
-                [47.769831, 7.554888],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
-            ).addTo(map_f2a49b2b681b424a9ab7764ec4a642f5);
-        
-    
-            regular_polygon_marker_5f0cd1bcb8b645849a5ce8444ccb5f7b.bindTooltip(
-                `<div>
-                     RÜB_55
+                     two
                  </div>`,
                 {"sticky": true}
             );
