@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e497c3ffae6468f9973ac62460e30c3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.3.0/leaflet-dvf.markers.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9e497c3ffae6468f9973ac62460e30c3" ></div>
+        
+</body>
+<script>    
+    
+            var map_9e497c3ffae6468f9973ac62460e30c3 = L.map(
+                "map_9e497c3ffae6468f9973ac62460e30c3",
+                {
+                    center: [47.9667, 7.95],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef116d18601a4bf2921a0d209437806d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+            var marker_5cba7b274de543ef82df0bc391897f67 = L.marker(
+                [47.9667, 7.95],
+                {}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+            var icon_d835069ce94c48488ad3b7a2ed6de6e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cba7b274de543ef82df0bc391897f67.setIcon(icon_d835069ce94c48488ad3b7a2ed6de6e2);
+        
+    
+            marker_5cba7b274de543ef82df0bc391897f67.bindTooltip(
+                `<div>
+                     Mein Standort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_68f16a2ed6354b76a113ab9eae5761bc = new L.RegularPolygonMarker(
+                [47.79077, 7.583286],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_80eb057e5ad74f00afa336e7585672b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_452ec8b00e194949ad37d3818c9f65e8 = $(`<div id="html_452ec8b00e194949ad37d3818c9f65e8" style="width: 100.0%; height: 100.0%;">Name: Regenbecken-4 Typ: Becken Adresse: Auggen, 79424, Germany Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/test 5/">öffnen</a></div>`)[0];
+            popup_80eb057e5ad74f00afa336e7585672b3.setContent(html_452ec8b00e194949ad37d3818c9f65e8);
+        
+
+        regular_polygon_marker_68f16a2ed6354b76a113ab9eae5761bc.bindPopup(popup_80eb057e5ad74f00afa336e7585672b3)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_68f16a2ed6354b76a113ab9eae5761bc.bindTooltip(
+                `<div>
+                     Regenbecken-4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_fa68c0561e0d4513ae1fb66be5ab6530 = new L.RegularPolygonMarker(
+                [47.981367, 7.842087],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_113d5d2f73ea49f191cc49747e130d69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8de35fe747f44420b037127e062e9209 = $(`<div id="html_8de35fe747f44420b037127e062e9209" style="width: 100.0%; height: 100.0%;">Name: Regenbecken Typ: Regenbecken Adresse: Matthias-Grünewald-Straße 15-3, 79100 Freiburg im Breisgau, Germany Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/datassss 2/">öffnen</a></div>`)[0];
+            popup_113d5d2f73ea49f191cc49747e130d69.setContent(html_8de35fe747f44420b037127e062e9209);
+        
+
+        regular_polygon_marker_fa68c0561e0d4513ae1fb66be5ab6530.bindPopup(popup_113d5d2f73ea49f191cc49747e130d69)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_fa68c0561e0d4513ae1fb66be5ab6530.bindTooltip(
+                `<div>
+                     Regenbecken
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_4e391837607947bd8d55ec37dcabc955 = new L.RegularPolygonMarker(
+                [47.784599, 7.543373],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_28eb0cfca0bb468b880cf600ec58c2b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30b6d8b2dab04a6d93607077becb8896 = $(`<div id="html_30b6d8b2dab04a6d93607077becb8896" style="width: 100.0%; height: 100.0%;">Name: RÜB_59 Typ: Regenbecken Adresse: Weinbergblick, 79395 Neuenburg am Rhein Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/TEST4a/">öffnen</a></div>`)[0];
+            popup_28eb0cfca0bb468b880cf600ec58c2b1.setContent(html_30b6d8b2dab04a6d93607077becb8896);
+        
+
+        regular_polygon_marker_4e391837607947bd8d55ec37dcabc955.bindPopup(popup_28eb0cfca0bb468b880cf600ec58c2b1)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_4e391837607947bd8d55ec37dcabc955.bindTooltip(
+                `<div>
+                     RÜB_59
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_ce3a9884d73a43b5b9474d6ee60011a0 = new L.RegularPolygonMarker(
+                [47.79077, 7.583286],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_731e02c505d34dc095fc5e3b80a40443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d6cd4bd861344e5876ae2228cf865eb = $(`<div id="html_5d6cd4bd861344e5876ae2228cf865eb" style="width: 100.0%; height: 100.0%;">Name: Regenbecken-4 Typ: Becken Adresse: Auggen, 79424, Germany Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/test 5/">öffnen</a></div>`)[0];
+            popup_731e02c505d34dc095fc5e3b80a40443.setContent(html_5d6cd4bd861344e5876ae2228cf865eb);
+        
+
+        regular_polygon_marker_ce3a9884d73a43b5b9474d6ee60011a0.bindPopup(popup_731e02c505d34dc095fc5e3b80a40443)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_ce3a9884d73a43b5b9474d6ee60011a0.bindTooltip(
+                `<div>
+                     Regenbecken-4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_29ba3251ce0247ff8c5d28bd5f1e2e2b = new L.RegularPolygonMarker(
+                [47.981367, 7.842087],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_43c3e7035f73457c8d71f171ebd0a815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac8ac0dd2dac45e48d12a08c6a0327b3 = $(`<div id="html_ac8ac0dd2dac45e48d12a08c6a0327b3" style="width: 100.0%; height: 100.0%;">Name: Regenbecken Typ: Regenbecken Adresse: Matthias-Grünewald-Straße 15-3, 79100 Freiburg im Breisgau, Germany Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/datassss 2/">öffnen</a></div>`)[0];
+            popup_43c3e7035f73457c8d71f171ebd0a815.setContent(html_ac8ac0dd2dac45e48d12a08c6a0327b3);
+        
+
+        regular_polygon_marker_29ba3251ce0247ff8c5d28bd5f1e2e2b.bindPopup(popup_43c3e7035f73457c8d71f171ebd0a815)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_29ba3251ce0247ff8c5d28bd5f1e2e2b.bindTooltip(
+                `<div>
+                     Regenbecken
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_a3ca183dda9441ef8f39c48ac4fe8143 = new L.RegularPolygonMarker(
+                [47.784599, 7.543373],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_b931ca18f63a4954b1aa1241aeced7bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_602585b6683f42018c1a2c641270637a = $(`<div id="html_602585b6683f42018c1a2c641270637a" style="width: 100.0%; height: 100.0%;">Name: RÜB_59 Typ: Regenbecken Adresse: Weinbergblick, 79395 Neuenburg am Rhein Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/TEST4a/">öffnen</a></div>`)[0];
+            popup_b931ca18f63a4954b1aa1241aeced7bd.setContent(html_602585b6683f42018c1a2c641270637a);
+        
+
+        regular_polygon_marker_a3ca183dda9441ef8f39c48ac4fe8143.bindPopup(popup_b931ca18f63a4954b1aa1241aeced7bd)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_a3ca183dda9441ef8f39c48ac4fe8143.bindTooltip(
+                `<div>
+                     RÜB_59
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_52ce629e75c94cec81b72387cd20887b = new L.RegularPolygonMarker(
+                [-33.565646, -70.693797],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_faea3aca7d144b5893e248bcc32835e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba5f30491ac04346b6bab675bd65c016 = $(`<div id="html_ba5f30491ac04346b6bab675bd65c016" style="width: 100.0%; height: 100.0%;">Name: Santiago Typ: sdfdsfdf Adresse: sdsdsfsf Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/test 8/">öffnen</a></div>`)[0];
+            popup_faea3aca7d144b5893e248bcc32835e9.setContent(html_ba5f30491ac04346b6bab675bd65c016);
+        
+
+        regular_polygon_marker_52ce629e75c94cec81b72387cd20887b.bindPopup(popup_faea3aca7d144b5893e248bcc32835e9)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_52ce629e75c94cec81b72387cd20887b.bindTooltip(
+                `<div>
+                     Santiago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_9a9a7d01605643f7be5c4db76b1bcdec = new L.RegularPolygonMarker(
+                [47.79077, 7.583286],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_17542128c4694e01afd44f76ef015fdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32413e57c15249978adc71982db35171 = $(`<div id="html_32413e57c15249978adc71982db35171" style="width: 100.0%; height: 100.0%;">Name: Regenbecken-4 Typ: Becken Adresse: Auggen, 79424, Germany Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/test 6/">öffnen</a></div>`)[0];
+            popup_17542128c4694e01afd44f76ef015fdf.setContent(html_32413e57c15249978adc71982db35171);
+        
+
+        regular_polygon_marker_9a9a7d01605643f7be5c4db76b1bcdec.bindPopup(popup_17542128c4694e01afd44f76ef015fdf)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_9a9a7d01605643f7be5c4db76b1bcdec.bindTooltip(
+                `<div>
+                     Regenbecken-4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_6550129e278e4fe09f3e84f13fc8b1a9 = new L.RegularPolygonMarker(
+                [47.784599, 7.543373],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_a25d65371a28438a83a74b2c018cd18b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf9b93d6f7e74c4fb5381bf459c696a4 = $(`<div id="html_cf9b93d6f7e74c4fb5381bf459c696a4" style="width: 100.0%; height: 100.0%;">Name: Hof Typ: Regenbecken Adresse: 79395 Neuenburg am Rhein, Germany Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/Test 2/">öffnen</a></div>`)[0];
+            popup_a25d65371a28438a83a74b2c018cd18b.setContent(html_cf9b93d6f7e74c4fb5381bf459c696a4);
+        
+
+        regular_polygon_marker_6550129e278e4fe09f3e84f13fc8b1a9.bindPopup(popup_a25d65371a28438a83a74b2c018cd18b)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_6550129e278e4fe09f3e84f13fc8b1a9.bindTooltip(
+                `<div>
+                     Hof
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_7f98de56d8fa422e831730492773ec0d = new L.RegularPolygonMarker(
+                [47.767964, 7.555197],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_96fc5884ea9748ba97abd7b6ec0d57ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a12aa3d16d0b47a99c2631d5dfcf5765 = $(`<div id="html_a12aa3d16d0b47a99c2631d5dfcf5765" style="width: 100.0%; height: 100.0%;">Name: Kirche Typ: Regenbecken Adresse: Kirchstrasse 20, 79395, Neuenburg, Germany Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/Test 1/">öffnen</a></div>`)[0];
+            popup_96fc5884ea9748ba97abd7b6ec0d57ec.setContent(html_a12aa3d16d0b47a99c2631d5dfcf5765);
+        
+
+        regular_polygon_marker_7f98de56d8fa422e831730492773ec0d.bindPopup(popup_96fc5884ea9748ba97abd7b6ec0d57ec)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_7f98de56d8fa422e831730492773ec0d.bindTooltip(
+                `<div>
+                     Kirche
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var regular_polygon_marker_a522ee3ddf7f418498d7ca42e243b903 = new L.RegularPolygonMarker(
+                [47.769831, 7.554888],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 4, "opacity": 1.0, "radius": 15, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_9e497c3ffae6468f9973ac62460e30c3);
+        
+    
+        var popup_11f1689b023c4d598d0d83ee8f2e5c57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c42e6188ed694b6dbb533a3af3450137 = $(`<div id="html_c42e6188ed694b6dbb533a3af3450137" style="width: 100.0%; height: 100.0%;">Name: RÜB_55 Typ: Regenbecken Adresse: St. Barbara Strasse 20, 79395, Neuenburg, Germany Ordner: <a href="/home/andres/DataScience/Archive-Mapping/data/Test3/">öffnen</a></div>`)[0];
+            popup_11f1689b023c4d598d0d83ee8f2e5c57.setContent(html_c42e6188ed694b6dbb533a3af3450137);
+        
+
+        regular_polygon_marker_a522ee3ddf7f418498d7ca42e243b903.bindPopup(popup_11f1689b023c4d598d0d83ee8f2e5c57)
+        ;
+
+        
+    
+    
+            regular_polygon_marker_a522ee3ddf7f418498d7ca42e243b903.bindTooltip(
+                `<div>
+                     RÜB_55
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

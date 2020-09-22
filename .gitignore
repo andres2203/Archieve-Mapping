@@ -149,9 +149,10 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-# Ignore Folders
+# Ignore Files and Folders
 ## Folders with exaple data
 data/
-
+map-geo-location.ipynb
+*location.xml
+*locations_map.html
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
-

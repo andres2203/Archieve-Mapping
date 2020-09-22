@@ -11,6 +11,7 @@ import webbrowser
 from folium import Map, Marker#, GeoJson, LayerControl
 #from ediblepickle import checkpoint
 
+
 path_root = os.getcwd()
 path = os.path.join(path_root, 'data/') # Import specific directory
 file_dict = []
@@ -35,31 +36,39 @@ def file_reader(path):
 file_reader(path)
 # Mapping of files
 my_loc = geocoder.ip('me') # get my loction
+
+# create basic map
 locations_map = Map(location = [my_loc.lat, my_loc.lng],
-                    height= '100',
-                    tiles = 'OpenStreetMap',
-                    zoom_start = 8)
-
+                height= '100',
+                tiles = 'OpenStreetMap', # googlemaps
+                zoom_start = 10) # zoom factor
 locations_map.add_child(
-   Marker(location = [my_loc.lat, my_loc.lng],
-                      tooltip = "Mein Standort",
-                      icon = folium.Icon(color = 'blue')));
+                Marker(location = [my_loc.lat, my_loc.lng],
+                    tooltip = "Mein Standort",
+                    icon = folium.Icon(color = 'blue')));
 
-# Mapping of all data
-for i in pd.Series(file_dict):
-    name = i['name']
-    address = i['adress']
-    description = i['desc']
-    locations = i['location'].split(",")
-    year_build = i['year_build']
-    folium.features.RegularPolygonMarker(location = [locations[0], locations[1]],
-                                        tooltip = name,
-                                        popup = "Name:\n" + name
-                                        + "\nTyp:\n" + description
-                                        + "\nAdresse:\n" + address
-                                        + "\nPath:\n" + ('<a href="/home/andres/DataScience/Archive-Mapping/data/test 6">open dir</a>'),
-                                        fill_opacity = 0.8
-                                        ).add_to(locations_map)
-# opens result in browser
-locations_map.save("locations_map.html")
-webbrowser.open("locations_map.html", new=2); #open new tab in webbrowser
+#get_items(file_dict)
+def map_add_details(file_dict):
+    for i in pd.Series(file_dict):
+        name = i['name']
+        address = i['address']
+        description = i['desc']
+        locations = i['location'].split(",")
+        year_build = i['year_build']
+        directory = i['dir']
+        hyperlink_format = '<a href="{link}">{text}</a>'
+        hyperlink = hyperlink_format.format(link=directory, text='öffnen')
+        folium.features.RegularPolygonMarker(location = [locations[0], locations[1]],
+                                                tooltip = name,
+                                                popup = "Name:\n" + name
+                                                + "\nTyp:\n" + description
+                                                + "\nAdresse:\n" + address
+                                                + "\nOrdner:\n" + hyperlink
+                                                #fill_opacity = 0.8
+                                                ).add_to(locations_map)
+
+#map_create_child(my_loc) # build child
+map_add_details(file_dict) # add locations into child
+
+locations_map.save("archive_library_map.html") #save html in folder
+webbrowser.open("archive_library_map.html", new=2); #open html new tab in webbrowser

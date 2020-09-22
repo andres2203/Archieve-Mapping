@@ -1,1 +1,0 @@
-{"name": "Regenbecken-4", "type": "Speicher", "adress": "Auggen, 79424, Germany", "desc": "Becken", "year_build": 1700, "location": "47.790770, 7.583286"}
