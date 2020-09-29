@@ -1,7 +1,7 @@
 import json
 import os
 import webbrowser
-
+import dicttoxml
 import folium
 import geocoder
 import pandas as pd
@@ -33,12 +33,15 @@ def file_reader(my_path):
 
 file_reader(path)
 
+xml = dicttoxml(file_dict)  # creates a Excel file from locations dictionary
+xml.save("locations_collection.xml")  # saves xml file
+
 my_loc = geocoder.ip('me')  # get my location
 
 # create basic map
 locations_map = Map(location=[my_loc.lat, my_loc.lng],
                     height='100',
-                    tiles='OpenStreetMap',
+                    tiles='OpenStreetMap',  # loads map from open street maps
                     zoom_start=10)  # zoom factor
 locations_map.add_child(
     Marker(location=[my_loc.lat, my_loc.lng],
@@ -68,5 +71,5 @@ def map_add_details(data):
 
 
 map_add_details(file_dict)  # add locations into child
-locations_map.save("archive_library_map.html")  # save html in folder
-webbrowser.open("archive_library_map.html", new=2)  # open html new tab in browser
+locations_map.save("locations_collection_map.html")  # save html in folder
+webbrowser.open("locations_collection_map.html", new=2)  # open html new tab in browser

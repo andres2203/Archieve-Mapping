@@ -154,5 +154,6 @@ dmypy.json
 data/
 map-geo-location.ipynb
 *location.xml
-*locations_map.html
+*locations_collection.xml
+*locations_collection_map.html
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
