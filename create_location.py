@@ -9,7 +9,6 @@ year = pd.to_numeric(input('year of construction '))
 latitude = input('coordinates for latitude ')
 longitude = input('coordinates for longitude ')
 
-
 data = {
     'name': building_name,
     'type': building_type,
