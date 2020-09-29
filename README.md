@@ -30,7 +30,7 @@ the folder structure should look like:
 >
 >location1
 >* file1
->* loction.xml
+>* location.xml
 >
 >location2
 >* file2
@@ -39,7 +39,7 @@ the folder structure should look like:
 > ...
 
 ## run program
-Save the "mapping-locations.py" in your schemes root folder. A file crawler will search for the specific loacation.xml files and collect them. The locations are than mapped in your local standard browser and a Excel file "locations_collection.xml" is saved in your schemes root folder.
+Save the "mapping-locations.py" in your schemes root folder. A file crawler will search for the specific location.xml files and collect them. The locations are than mapped in your local standard browser and a Excel file "locations_collection.xml" is saved in your schemes root folder.
 
 # Requirements
 The python libraries from "python_environment.yml" should be installed locally.

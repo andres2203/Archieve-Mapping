@@ -110,8 +110,8 @@ def map_add_details(data):
 
 
 map_add_details(file_dict)  # add locations into child
-locations_map.save("archive_library_map.html")  # save html in folder
-webbrowser.open("archive_library_map.html", new=2)  # open html new tab in br
+locations_map.save("locations_collection_map.html")  # save html in folder
+webbrowser.open("locations_collection_map.html", new=2)  # open html new tab in br
 
 
 import kivy;

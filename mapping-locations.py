@@ -33,9 +33,6 @@ def file_reader(my_path):
 
 file_reader(path)
 
-xml = dicttoxml(file_dict)  # creates a Excel file from locations dictionary
-xml.save("locations_collection.xml")  # saves xml file
-
 my_loc = geocoder.ip('me')  # get my location
 
 # create basic map
