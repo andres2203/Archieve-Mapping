@@ -151,9 +151,9 @@ dmypy.json
 
 # Ignore Files and Folders
 ## Folders with exaple data
-/data/
-*location.xml
-*locations_collection.xlsx
+data/
+location.xml
+locations_collection.xlsx
 locations_collection.csv
-*locations_collection_map.html
+locations_collection_map.html
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks

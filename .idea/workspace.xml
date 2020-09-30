@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e28b71c4-badf-4f3f-8b74-3608d856a78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Archive-Mapping.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Achive-Mapping2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping-locations.py" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-locations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/python_environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Archive-Mapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Archive-Mapping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +26,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/python_environment.yml" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration name="mapping-locations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mapping-locations" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Archive-Mapping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +50,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.mapping-locations" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,29 +63,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="418" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601461523903">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="418" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601461523903" />
+    <state x="819" y="337" width="271" height="477" key="EnvironmentVariablesDialog" timestamp="1601461422406">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="819" y="337" width="271" height="477" key="EnvironmentVariablesDialog/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601461422406" />
     <state x="743" y="337" width="424" height="478" key="FileChooserDialogImpl" timestamp="1601456483564">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="743" y="337" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601456483564" />
-    <state width="1899" height="316" key="GridCell.Tab.0.bottom" timestamp="1601460770551">
+    <state width="1899" height="316" key="GridCell.Tab.0.bottom" timestamp="1601460958425">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460770551" />
-    <state width="1899" height="316" key="GridCell.Tab.0.center" timestamp="1601460770551">
+    <state width="1899" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460958425" />
+    <state width="1899" height="316" key="GridCell.Tab.0.center" timestamp="1601460958425">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="316" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460770551" />
-    <state width="1899" height="316" key="GridCell.Tab.0.left" timestamp="1601460770551">
+    <state width="1899" height="316" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460958425" />
+    <state width="1899" height="316" key="GridCell.Tab.0.left" timestamp="1601460958425">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="316" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460770551" />
-    <state width="1899" height="316" key="GridCell.Tab.0.right" timestamp="1601460770551">
+    <state width="1899" height="316" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460958425" />
+    <state width="1899" height="316" key="GridCell.Tab.0.right" timestamp="1601460958425">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="316" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460770551" />
-    <state x="464" y="214" key="SettingsEditor" timestamp="1601458007380">
+    <state width="1899" height="316" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460958425" />
+    <state x="464" y="214" key="SettingsEditor" timestamp="1601461668336">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="464" y="214" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601458007380" />
+    <state x="464" y="214" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601461668336" />
   </component>
 </project>
