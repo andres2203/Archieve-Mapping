@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e28b71c4-badf-4f3f-8b74-3608d856a78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Archive-Mapping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Achive-Mapping2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapping-locations.py" beforeDir="false" afterPath="$PROJECT_DIR$/mapping-locations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/python_environment.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iDxJg3VlSS2IoZzN4mmU6Xwyh7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_environment.yml" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="mapping-locations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Archive-Mapping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/Archive-Mapping/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mapping-locations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mapping-locations" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e28b71c4-badf-4f3f-8b74-3608d856a78e" name="Default Changelist" comment="" />
+      <created>1601455893926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601455893926</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="337" width="424" height="478" key="FileChooserDialogImpl" timestamp="1601456483564">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="743" y="337" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601456483564" />
+    <state width="1899" height="316" key="GridCell.Tab.0.bottom" timestamp="1601460770551">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460770551" />
+    <state width="1899" height="316" key="GridCell.Tab.0.center" timestamp="1601460770551">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="316" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460770551" />
+    <state width="1899" height="316" key="GridCell.Tab.0.left" timestamp="1601460770551">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="316" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460770551" />
+    <state width="1899" height="316" key="GridCell.Tab.0.right" timestamp="1601460770551">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="316" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601460770551" />
+    <state x="464" y="214" key="SettingsEditor" timestamp="1601458007380">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="464" y="214" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1601458007380" />
+  </component>
+</project>

@@ -39,7 +39,9 @@ the folder structure should look like:
 > ...
 
 ## run program
-Save the "mapping-locations.py" in your schemes root folder. A file crawler will search for the specific location.xml files and collect them. The locations are than mapped in your local standard browser and a Excel file "locations_collection.xml" is saved in your schemes root folder.
+Save the "mapping-locations.py" in your schemes root folder. A file crawler will search for the specific location.xml files and collect them. The locations are than mapped in your local default browser. A Excel and a CSV file "locations_collection.xlsx" are saved in your schemes root folder.
 
+Output:
+![Location map of all listed locations](src/screenshot-webbrowser.png)
 # Requirements
 The python libraries from "python_environment.yml" should be installed locally.

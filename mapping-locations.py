@@ -1,7 +1,7 @@
 import json
 import os
 import webbrowser
-import dicttoxml
+
 import folium
 import geocoder
 import pandas as pd
@@ -31,7 +31,11 @@ def file_reader(my_path):
                         file_dict.append(data)  # append json dict to file_dict
 
 
-file_reader(path)
+file_reader(path)  # run function with path
+
+df = pd.DataFrame(file_dict)  # create a DataFrame from list
+df.to_excel("locations_collection.xlsx", index=False)  # save df as Excel file
+df.to_csv('locations_collection.csv', index=False)  # save df as CSV file
 
 my_loc = geocoder.ip('me')  # get my location
 

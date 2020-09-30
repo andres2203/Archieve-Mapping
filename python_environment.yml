@@ -4,4 +4,3 @@ pandas~=1.1.1
 folium~=0.11.0
 matplotlib~=3.3.1
 numpy~=1.19.1
-dicttoxml~=1.7.4
